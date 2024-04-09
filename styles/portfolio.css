@@ -53,3 +53,7 @@ h2 {
   line-height: 27px;
   padding: 12px 20px;
 }
+@media (max-width:960px){
+  padding: 0;
+  text-align: center;
+}
