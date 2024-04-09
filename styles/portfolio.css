@@ -20,7 +20,13 @@ h1 {
 p, h2 {
   font-family: var(--heading-font-family);
     sans-serif;
+}
+p {
+  line-height: 1.5;
   font-size: 20px;
+}
+h2 {
+  font-size: 48px;
 }
 .hero {
   background-color: #f5f2fe;
@@ -35,6 +41,14 @@ p, h2 {
   background-color: #6c63ff;
   border-radius: 4px;
   color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 20px;
+}
+.btn-branding-outline{
+  color: #6c63ff;
+  border: 1px solid #6c63ff;
+  border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
   padding: 12px 20px;
